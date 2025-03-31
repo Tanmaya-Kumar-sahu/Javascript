@@ -1,0 +1,43 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementByTagName</title>
+</head>
+<body>
+    <h1>first heading</h1>
+    <h1>second heading</h1>
+    <h1>third heading</h1>
+    <h1>fourth heading</h1>
+</body>
+
+<script>
+    let heading = document.getElementsByTagName('h1')
+    console.log(heading);
+    
+</script>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementByClassName</title>
+</head>
+<body>
+    <h1 class="message">third heading</h1>
+    <div id="container">
+        <h1 class="message">first heading</h1>
+         <h1 class="message">second heading </h1>
+    </div>
+</body>
+
+<script>
+    let cont = document.getElementById('container');
+    let msg = cont.getElementsByClassName('message')
+    console.log(msg);
+    
+</script>
+</html>
